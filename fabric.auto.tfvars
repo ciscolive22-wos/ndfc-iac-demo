@@ -146,38 +146,38 @@ networks = [
 		}
     ]
   },
-  # {
-  #   name         = "network_db"
-  #   network_id   = 30003
-  #   vlan_id      = 2313
-  #   description  = "network for db tier"
-  #   vrf_name     = "vrf_app1"
-  #   ipv4_gateway = "10.1.3.1/24"
-  #   attachments = [
-  #     {
-  #       switch_id = 101
-  #       switch_ports = [
-  #         "Port-channel10"
-  #       ]
-  #     },
-  #     {
-  #       switch_id = 102
-  #       switch_ports = [
-  #         "Port-channel10"
-  #       ]
-  #     },
-  #     {
-  #       switch_id = 103
-  #       switch_ports = [
-  #         "Port-channel10"
-  #       ]
-  #     },
-  #     {
-  #       switch_id = 104
-  #       switch_ports = [
-  #         "Port-channel10"
-  #       ]
-	# 	}
-  #   ]
-  # }
+  {
+    name         = "network_db"
+    network_id   = 30003
+    vlan_id      = 2313
+    description  = "network for db tier"
+    vrf_name     = "vrf_app1"
+    ipv4_gateway = "10.1.3.1/24"
+    attachments = [
+      {
+        switch_id = 101
+        switch_ports = [
+          "Port-channel10"
+        ]
+      },
+      {
+        switch_id = 102
+        switch_ports = [
+          "Port-channel10"
+        ]
+      },
+      {
+        switch_id = 103
+        switch_ports = [
+          "Port-channel10"
+        ]
+      },
+      {
+        switch_id = 104
+        switch_ports = [
+          "Port-channel10"
+        ]
+		}
+    ]
+  }
 ]
