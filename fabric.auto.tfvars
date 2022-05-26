@@ -143,7 +143,7 @@ networks = [
         switch_ports = [
           "Port-channel10"
         ]
-		}
+      }
     ]
   },
   {
@@ -177,7 +177,7 @@ networks = [
         switch_ports = [
           "Port-channel10"
         ]
-		}
+      }
     ]
   }
 ]
